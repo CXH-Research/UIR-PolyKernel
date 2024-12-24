@@ -1,0 +1,39 @@
+VERBOSE: True
+
+MODEL:
+  SESSION: 'UIR_PolyKernel'
+  INPUT: 'input'
+  TARGET: 'target'
+
+# Optimization arguments.
+OPTIM:
+  BATCH_SIZE: 16
+  NUM_EPOCHS: 500
+  LR_INITIAL: 2e-4
+  LR_MIN: 1e-6
+  SEED: 3407
+  WANDB: False
+
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  WEIGHT: ''
+  PS_W: 256
+  PS_H: 256
+  TRAIN_DIR: '' # path to training data
+  VAL_DIR: ''     # path to validation data
+  SAVE_DIR: ''          # path to save models and images
+  ORI: False
+  LOG_FILE: ''
+
+TESTING:
+  INPUT: 'input'
+  TARGET: 'target'
+  VAL_DIR: ''     # path to testing data
+  WEIGHT: ''
+  SAVE_IMAGES: True
+  RESULT_DIR: ''
+  LOG_FILE: ''
+
+LOG:
+  LOG_DIR: ''
