@@ -1,6 +1,6 @@
 # UIR-PolyKernel
 
-Underwater Image Restoration via Polymorphic Large Kernel CNNs
+[Underwater Image Restoration via Polymorphic Large Kernel CNNs](https://arxiv.org/abs/2412.18459)
 <div>
 <span class="author-block">
   Xiaojiao Guo<sup> 👨‍💻‍ </sup>
