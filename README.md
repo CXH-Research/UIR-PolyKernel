@@ -57,4 +57,12 @@ python infer.py
 # Citation
 
 ```bib
+@inproceedings{guo2025underwater,
+  title={Underwater Image Restoration via Polymorphic Large Kernel CNNs},
+  author={Guo, Xiaojiao and Dong, Yihang and Chen, Xuhang and Chen, Weiwen and Li, Zimeng and Zheng, FuChen and Pun, Chi-Man},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
+}
 ```
