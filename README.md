@@ -51,7 +51,7 @@ If you have difficulties with the usage of `accelerate`, please refer to <a href
 Please first specify TRAIN_DIR, VAL_DIR and SAVE_DIR in section TESTING in `config.yml`.
 
 ```bash
-python infer.py
+python test.py
 ```
 
 # Citation
